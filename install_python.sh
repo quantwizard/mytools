@@ -18,8 +18,8 @@ cd Python-2.7.11
 
 make
 make altinstall
-if [ -f /usr/bin/python ]; then        
+if [ -e /usr/bin/python ]; then        
     rm -f /usr/bin/python
 fi
 ln -s /usr/local/bin/python2.7 /usr/bin/python
-sed -i -e '1c#!/usr/bin/python2.6' /usr/bin/yum
+sed -i -e '1c/#!/usr/bin/python2.6' /usr/bin/yum
