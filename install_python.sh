@@ -5,7 +5,7 @@
 
 yum -y update
 yum groupinstall -y 'development tools'
-yum install -y zlib-devel bzip2-devel openssl-devel xz-libs wget git
+yum install -y zlib-devel bzip2-devel libffi-devel python-devel openssl-devel xz-libs wget git
 if [ ! -f ./Python-2.7.11.tar.xz ]; then
     wget https://www.python.org/ftp/python/2.7.11/Python-2.7.11.tar.xz
     if [ ! -d ./Python-2.7.11 ]; then
