@@ -12,3 +12,6 @@ This tool is used to install Python2.7 instead 2.6 on CentOS system
 
 ## register.py
 This tool is used to register python in Windows registry.
+
+## ffmpeg_install.sh
+This tool is used to install ffmpeg on CentOS
