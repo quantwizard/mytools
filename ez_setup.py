@@ -33,7 +33,7 @@ except ImportError:
 
 LATEST = object()
 DEFAULT_VERSION = LATEST
-DEFAULT_URL = "https://pypi.python.org/packages/source/s/setuptools/"
+DEFAULT_URL = "https://pypi.python.org/packages/f7/83/2865ee5727b46234c68efb833363dbce1922a191dd46e246853246a46182/setuptools-24.0.2.zip#md5=b7e888eb6867d94ecaf1af7a26a56c72"
 DEFAULT_SAVE_DIR = os.curdir
 
 
